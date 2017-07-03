@@ -7,6 +7,12 @@
   &__item {
     margin-right: 20px;
     padding: 12px;
+
+    &--footer {
+      padding: 25px 0;
+      margin: 0;
+      margin-left: 49px;
+    }
   }
 
   &__link {
@@ -21,6 +27,11 @@
     &--active {
       padding-bottom: 8px;
       border-bottom: 3px solid $color-green;
+    }
+
+    &--footer {
+      font-size: 16px;
+      opacity: 0.8;
     }
   }
 }

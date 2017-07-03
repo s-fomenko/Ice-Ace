@@ -1,0 +1,78 @@
+// sprite
+.sprite {
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-facebook-icon {
+  width: 18px;
+  height: 33px;
+  background-position: -10px -10px;
+}
+
+.sprite-instagram-icon {
+  width: 32px;
+  height: 32px;
+  background-position: -10px -63px;
+}
+
+.sprite-vk-icon {
+  width: 40px;
+  height: 24px;
+  background-position: -10px -115px;
+}
+
+.sprite-youtube-icon {
+  width: 32px;
+  height: 32px;
+  background-position: -10px -159px;
+}
+// !sprite
+
+.social {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  padding-top: 1px;
+  margin: 0;
+  width: 270px;
+
+
+  &__item {
+    padding: 0 6px;
+    margin-right: 30px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 0;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    display: block;
+
+    &--youtube {
+      width: 32px;
+      height: 32px;
+      background-position: -10px -159px;
+    }
+
+    &--indtagram {
+      width: 32px;
+      height: 32px;
+      background-position: -10px -63px;
+    }
+
+    &--facebook {
+      width: 18px;
+      height: 33px;
+      background-position: -10px -10px;
+    }
+
+    &--vk {
+      width: 40px;
+      height: 24px;
+      background-position: -10px -115px;
+    }
+  }
+}
