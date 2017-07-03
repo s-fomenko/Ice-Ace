@@ -1,0 +1,54 @@
+.table {
+  border-collapse: collapse;
+  // width: 100%;
+
+  &__header {
+    font-family: $futura-pt-medium;
+    font-size: 20px;
+    line-height: 70px;
+    color: $color-black;
+    text-align: left;
+  }
+
+  &__column {
+    font-family: $pt-sans;
+    font-size: 15px;
+    line-height: 22px;
+    color: $color-black;
+    border: 2px solid #000000;
+    text-align: center;
+
+    &--1 {
+      width: 159px;
+    }
+
+    &--2 {
+      width: 301px;
+    }
+
+    &--3 {
+      width: 156px;
+    }
+
+    &--4 {
+      width: 153px;
+    }
+
+    &--5 {
+      width: 154px;
+    }
+
+    &--6 {
+      width: 237px;
+    }
+  }
+
+  &__link {
+    font-family: $futura-pt-heavy;
+    font-size: 15px;
+    line-height: 65.16px;
+    color: $color-green;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
