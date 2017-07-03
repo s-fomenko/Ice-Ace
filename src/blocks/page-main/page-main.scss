@@ -1,0 +1,7 @@
+.page-main {
+  margin-bottom: 69px;
+
+  &__container {
+    @include container;
+  }
+}

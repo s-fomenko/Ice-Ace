@@ -1,0 +1,69 @@
+.form {
+  box-sizing: border-box;
+  width: 558px;
+  margin: 0 auto;
+  padding-top: 35px;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  &__title {
+    margin-bottom: 27px;
+    padding: 10px;
+    font-size: 40px;
+    line-height: 35px;
+    font-family: $futura-pt-heavy;
+    text-align: center;
+    color: $color-black;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    &:nth-of-type(3) {
+      margin-bottom: 15px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 60px;
+    }
+  }
+
+  &__label {
+    position: relative;
+    padding: 13px;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: $futura-pt-medium;
+    color: $color-black;
+    letter-spacing: 1px;
+
+    &::before {
+      content: "*";
+      position: absolute;
+      top: 13px;
+      left: 1px;
+    }
+
+    &--textarea {
+      padding: 11px 0;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+  &__input {
+    padding: 14px 20px;
+  }
+
+  &__area {
+    padding: 10px;
+  }
+}

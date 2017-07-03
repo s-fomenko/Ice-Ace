@@ -1,0 +1,58 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &__item {
+    position: relative;
+    padding: 0 3px;
+  }
+
+  &__link {
+    font-size: 20px;
+    line-height: 60px;
+    font-family: $futura-pt-medium;
+    color: $color-black;
+    text-decoration: none;
+
+    &--active {
+      color: $color-green;
+    }
+
+    &--left {
+      font-size: 0;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 21px;
+        left: -18px;
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-top: 1px solid $color-green;
+        border-left: 1px solid $color-green;
+        transform: rotate(-45deg);
+      }
+    }
+
+    &--right {
+      font-size: 0;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 21px;
+        right: -18px;
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-top: 1px solid $color-green;
+        border-right: 1px solid $color-green;
+        transform: rotate(45deg);
+      }
+    }
+  }
+}

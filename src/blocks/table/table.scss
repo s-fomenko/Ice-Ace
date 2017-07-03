@@ -1,0 +1,60 @@
+.table {
+  margin-bottom: 36px;
+  border-collapse: collapse;
+
+  &__header {
+    padding: 15px 0;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: $futura-pt-medium;
+    text-align: left;
+    color: $color-black;
+    letter-spacing: 1px;
+  }
+
+  &__column {
+    box-sizing: border-box;
+    padding: 11px 15px;
+    font-size: 15px;
+    line-height: 21px;
+    font-family: $pt-sans;
+    color: $color-black;
+    letter-spacing: 1px;
+    border: 2px solid #000000;
+
+    &--1 {
+      width: 158px;
+    }
+
+    &--2 {
+      width: 301px;
+    }
+
+    &--3 {
+      width: 155px;
+    }
+
+    &--4 {
+      width: 155px;
+    }
+
+    &--5 {
+      width: 155px;
+    }
+
+    &--6 {
+      width: 235px;
+    }
+  }
+
+  &__link {
+    display: block;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: $futura-pt-heavy;
+    text-align: center;
+    color: $color-green;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

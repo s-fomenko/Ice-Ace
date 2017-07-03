@@ -1,0 +1,117 @@
+.offer {
+  display: flex;
+  padding-bottom: 7px;
+  border: 2px solid #000000;
+
+  &__item {
+    box-sizing: border-box;
+
+    &:first-of-type {
+      position: relative;
+      width: 300px;
+      margin-right: 35px;
+      padding: 50px 42px 30px 59px;
+    }
+
+    &:nth-of-type(2) {
+      width: 550px;
+      margin-right: 10px;
+      padding: 44px 22px;
+    }
+
+    &:last-of-type {
+      width: 260px;
+      padding: 28px 56px 15px 68px;
+    }
+  }
+
+  &__img {
+    width: 191px;
+    height: 191px;
+    border: 2px solid $color-green;
+    border-radius: 50%;
+  }
+
+  &__name {
+    position: absolute;
+    bottom: 104px;
+    left: 58px;
+    display: block;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 7px 10px;
+    font-size: 15px;
+    line-height: 17px;
+    font-family: $futura-pt-book;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: #000000;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 6px;
+    padding: 0;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: $futura-pt-heavy;
+    color: $color-black;
+    word-spacing: 1px;
+  }
+
+  &__date {
+    margin: 0;
+    margin-bottom: 9px;
+    padding: 3px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: $pt-sans;
+    color: $color-black;
+    letter-spacing: 1px;
+  }
+
+  &__subtitle {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 3px;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: $futura-pt-medium;
+    color: $color-black;
+    letter-spacing: 1px;
+  }
+
+  &__text {
+    margin: 0;
+    margin-bottom: 9px;
+    padding: 5px 43px 8px 0;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: $pt-sans;
+    color: $color-black;
+    letter-spacing: 1px;
+  }
+
+  &__link {
+    padding-bottom: 5px;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: $pt-sans;
+    color: $color-black;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    border-bottom: 2px solid $color-green;
+  }
+
+  &__price {
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 70px;
+    font-family: $futura-pt-medium;
+    color: $color-black;
+    letter-spacing: 1px;
+  }
+}

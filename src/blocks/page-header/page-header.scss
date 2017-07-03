@@ -1,0 +1,16 @@
+.page-header {
+  margin-bottom: 15px;
+  padding-top: 42px;
+
+  &__container {
+    display: flex;
+    align-items: flex-start;
+
+    @include container;
+  }
+
+  &__button {
+    margin-top: 7px;
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,37 @@
+.navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &__item {
+    margin-right: 20px;
+    padding: 12px;
+
+    &--footer {
+      margin: 0;
+      margin-left: 49px;
+      padding: 25px 0;
+    }
+  }
+
+  &__link {
+    font-size: 15px;
+    line-height: 37px;
+    font-family: $futura-pt-medium;
+    color: $color-black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    &--active {
+      padding-bottom: 8px;
+      border-bottom: 3px solid $color-green;
+    }
+
+    &--footer {
+      font-size: 16px;
+      opacity: 0.8;
+    }
+  }
+}
