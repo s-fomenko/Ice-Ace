@@ -1,8 +1,8 @@
 // sprite
 .sprite {
+  display: block;
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
-  display: block;
 }
 
 .sprite-facebook-icon {
@@ -32,24 +32,24 @@
 
 .social {
   display: flex;
-  list-style: none;
+  width: 270px;
+  margin: 0;
   padding: 0;
   padding-top: 1px;
-  margin: 0;
-  width: 270px;
+  list-style: none;
 
 
   &__item {
-    padding: 0 6px;
     margin-right: 30px;
+    padding: 0 6px;
   }
 
   &__link {
-    text-decoration: none;
+    display: block;
     font-size: 0;
+    text-decoration: none;
     background-image: url("../img/sprite.png");
     background-repeat: no-repeat;
-    display: block;
 
     &--youtube {
       width: 32px;
@@ -57,7 +57,7 @@
       background-position: -10px -159px;
     }
 
-    &--indtagram {
+    &--instagram {
       width: 32px;
       height: 32px;
       background-position: -10px -63px;

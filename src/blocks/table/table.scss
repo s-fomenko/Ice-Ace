@@ -1,26 +1,26 @@
 .table {
-  border-collapse: collapse;
   margin-bottom: 36px;
+  border-collapse: collapse;
 
   &__header {
-    font-family: $futura-pt-medium;
+    padding: 15px 0;
     font-size: 20px;
     line-height: 25px;
-    color: $color-black;
+    font-family: $futura-pt-medium;
     text-align: left;
+    color: $color-black;
     letter-spacing: 1px;
-    padding: 15px 0;
   }
 
   &__column {
-    font-family: $pt-sans;
+    box-sizing: border-box;
+    padding: 11px 15px;
     font-size: 15px;
     line-height: 21px;
+    font-family: $pt-sans;
     color: $color-black;
-    border: 2px solid #000000;
-    box-sizing: border-box;
     letter-spacing: 1px;
-    padding: 11px 15px;
+    border: 2px solid #000000;
 
     &--1 {
       width: 158px;
@@ -48,13 +48,13 @@
   }
 
   &__link {
-    font-family: $futura-pt-heavy;
+    display: block;
     font-size: 15px;
     line-height: 22px;
-    color: $color-green;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
+    font-family: $futura-pt-heavy;
     text-align: center;
+    color: $color-green;
+    text-transform: uppercase;
+    text-decoration: none;
   }
 }

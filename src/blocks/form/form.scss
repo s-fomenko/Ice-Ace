@@ -1,23 +1,23 @@
 .form {
-  width: 558px;
   box-sizing: border-box;
+  width: 558px;
   margin: 0 auto;
   padding-top: 35px;
 
   &__list {
-    border: 0;
     margin: 0;
     padding: 0;
+    border: 0;
   }
 
   &__title {
-    font-family: $futura-pt-heavy;
+    margin-bottom: 27px;
+    padding: 10px;
     font-size: 40px;
     line-height: 35px;
-    color: $color-black;
+    font-family: $futura-pt-heavy;
     text-align: center;
-    padding: 10px;
-    margin-bottom: 27px;
+    color: $color-black;
   }
 
   &__item {
@@ -35,12 +35,12 @@
   }
 
   &__label {
-    font-family: $futura-pt-medium;
-    font-size: 20px;
-    line-height: 25px;
-    color: $color-black;
     position: relative;
     padding: 13px;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: $futura-pt-medium;
+    color: $color-black;
     letter-spacing: 1px;
 
     &::before {
